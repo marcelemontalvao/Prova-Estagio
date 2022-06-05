@@ -24,5 +24,21 @@ public class QuestaoSeis {
         itens[2][1] = "item 2:  8 Pneus";
         itens[2][2] = "item 3:  2 Pneus";
         respostaCorreta[2] = 3;
+
+        for(int i=0; i < perguntas.length; i++){
+            System.out.println(perguntas[i]);
+            for(int j=0; j < itens[i].length; j++){
+                System.out.println(itens[i][j]);
+            }
+            int res = in.nextInt();
+            if(res == respostaCorreta[i]){
+                System.out.println("Resposta correta !");
+                acertos=+1;
+            }else{
+                System.out.println("Resposta incorreta!");
+            }
+        }
+        System.out.println("Acertos: " + acertos);
+        System.out.println("Erros: " + (perguntas.length-acertos));
     }
 }
