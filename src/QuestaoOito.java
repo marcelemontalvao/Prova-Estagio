@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class QuestaoOito {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -7,7 +6,7 @@ public class QuestaoOito {
         int qtdFuncionarios = in.nextInt();
         String[][] funcionarios = new String[qtdFuncionarios][4];
         for(int i = 0; i<funcionarios.length;i++){
-            System.out.println("Nome:");
+            System.out.println("Funcionário:");
             funcionarios[i][0]=in.next();
             System.out.println("Salario:");
             funcionarios[i][1]=in.next();
@@ -15,14 +14,14 @@ public class QuestaoOito {
         funcionarios = calcBons(funcionarios);
         for(int i = 0; i<funcionarios.length;i++){
             System.out.println();
-            System.out.println("Nome: "+funcionarios[i][0]);
-            System.out.println("Salário: "+funcionarios[i][1]);
+            System.out.println("Funcionário " + funcionarios[i][0]);
+            System.out.println("Salário: " + funcionarios[i][1]);
             if(Double.parseDouble(funcionarios[i][1])>2000){
-                System.out.println("Desconto: "+funcionarios[i][2]);
+                System.out.println("Desconto: " + funcionarios[i][2]);
             }else{
-                System.out.println("Bonus: "+funcionarios[i][2]);
+                System.out.println("Bonus: " + funcionarios[i][2]);
             }
-            System.out.println("Salario liquido: "+funcionarios[i][3]);
+            System.out.println("Salario liquido: " + funcionarios[i][3]);
             System.out.println();
         }
     }
