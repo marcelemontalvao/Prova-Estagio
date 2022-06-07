@@ -19,4 +19,4 @@ Por que esse “erro” de “Untracked files” ocorreu e qual comando resolver
 Com o Scrum é possível adaptar o projeto de acordo com as necessidades que vão surgindo ao decorrer do tempo. Além disso, com o Scrum é possível acompanhar o progresso das atividades de cada um do grupo e assim, torna possível também a entrega de feedbacks de maneira melhor e mais contínua. Tudo isso contribui para a melhora do projeto final. <br>
 
 5. José foi promovido de seu cargo anterior e se tornou o novo Product Owner do time, quais são suas novas responsabilidades como PO? <br>
-  Agora ele precisa maximizar o valor do produto resultante do trabalho do time scrum através do gerenciamento eficaz do backlog do produto. <br>
+  Agora ele precisa, segundo o Scrum Guide, "maximizar o valor do produto resultante do trabalho do time scrum através do gerenciamento eficaz do backlog do produto". <br>
